@@ -1,8 +1,8 @@
 export const name = "Dima Karkanitsa"
-export const position = "Frontend Developer / React Native Developer"
+export const position = "Frontend Developer"
 
 export const location = {
-  text: "Warsaw, Poland",
+  text: "Krakow, Poland",
   flag: (
     <span role='img' aria-label='The flag for Poland'>
       🇵🇱

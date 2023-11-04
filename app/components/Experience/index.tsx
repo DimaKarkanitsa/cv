@@ -14,7 +14,7 @@ const Experience = () => (
           company,
           startDate,
           endDate,
-          // locationFlag,
+          locationFlag,
           link,
         }) => (
           <div key={startDate.toString()} className={s.place}>

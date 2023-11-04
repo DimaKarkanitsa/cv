@@ -5,7 +5,6 @@ import Contacts from "./components/Contacts/index"
 import About from "./components/About/index"
 import Stack from "./components/Stack/index"
 import Experience from "./components/Experience/index"
-import Projects from "./components/Projects/index"
 import Education from "./components/Education/index"
 
 export default function Home() {
@@ -15,9 +14,8 @@ export default function Home() {
       <Contacts />
       <About />
       <Stack />
-      {/* <Experience /> */}
-      <Projects />
-      <Education />
+      <Experience />
+      {/* <Education /> */}
     </div>
   )
 }

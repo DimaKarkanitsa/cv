@@ -1,29 +1,24 @@
-export const sectionTitle = 'Experience';
+export const sectionTitle = "Experience"
 
 export const places = [
   {
-    title: 'Senior Frontend Developer / React Native Developer',
-    company: 'Gosu.team',
-    location: 'Poland, Warsaw',
-    startDate: new Date(2023, 4),
-    link: 'https://gosu.team'
+    title: "Frontend Developer",
+    company: "freelance",
+    location: "Krakow, Poland",
+    startDate: new Date(2022, 11),
   },
   {
-    title: 'Senior Frontend Developer / React Native Developer',
-    company: 'PixelPlex',
-    location: 'Remote',
+    title: "UX/UI Designer",
+    company: "SalonUltimate",
+    location: "Remote",
     startDate: new Date(2021, 4),
-    endDate:  new Date(2022, 3),
-  }, {
-  title: 'Frontend Developer',
-  company: 'Epam Systems',
-  location: 'Remote',
-  startDate: new Date(2021, 0),
-  endDate:  new Date(2021, 4),
-}, {
-  title: 'Frontend Developer',
-  company: 'PixelPlex',
-  location: 'Belarus, Minsk',
-  startDate: new Date(2018, 1),
-  endDate: new Date(2020, 12),
-}];
+    endDate: new Date(2022, 2),
+  },
+  {
+    title: "Manager",
+    company: "Sinklinal izyskania",
+    location: "Minsk, Belarus",
+    startDate: new Date(2015, 1),
+    endDate: new Date(2020, 10),
+  },
+]
