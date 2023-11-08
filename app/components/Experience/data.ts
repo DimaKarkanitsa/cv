@@ -10,7 +10,7 @@ export const places = [
   {
     title: "UX/UI Designer",
     company: "SalonUltimate",
-    location: "Remote",
+    location: "USA, Remote",
     startDate: new Date(2021, 4),
     endDate: new Date(2022, 2),
   },

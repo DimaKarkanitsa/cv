@@ -1,19 +1,21 @@
-import github from '../../../assets/images/git.svg';
-import linkedin from '../../../assets/images/in.svg';
-import npm from '../../../assets/images/npm.svg';
-
-export const list = [{
-  title: 'github',
-  image: github,
-  url: 'https://github.com/AndreyFedarovich',
-},
-{
-  title: 'linkedin',
-  image: linkedin,
-  url: 'https://www.linkedin.com/in/andriy-fedorovich',
-}, {
-  title: 'npm',
-  image: npm,
-  url: 'https://www.npmjs.com/~a.fedarovich',
-
-}];
+import { te } from "date-fns/locale"
+import github from "../../../assets/images/git.svg"
+import linkedin from "../../../assets/images/in.svg"
+import telegram from "../../../assets/images/telegram.svg"
+export const list = [
+  {
+    title: "github",
+    image: github,
+    url: "https://github.com/DimaKarkanitsa",
+  },
+  {
+    title: "linkedin",
+    image: linkedin,
+    url: "www.linkedin.com/in/dima-karkanitsa",
+  },
+  {
+    title: "telegram",
+    image: telegram,
+    url: "https://www.npmjs.com/~a.fedarovich",
+  },
+]
