@@ -5,7 +5,7 @@
 }
 
 @mixin max-vw($breakpoint) {
-  @media (max-width: $breakpoint - 1px) {
+  @media (max-width: calc($breakpoint - 1px)) {
     @content;
   }
 }

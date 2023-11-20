@@ -1,5 +1,4 @@
-// import Panel from "./Panel/index"
-import Social from "./Social"
+import Social from "../Social"
 import { name, position, location } from "./data"
 import s from "./personal-info.module.scss"
 
@@ -24,7 +23,5 @@ const PersonalInfo = () => {
     </>
   )
 }
-
-PersonalInfo.propTypes = {}
 
 export default PersonalInfo

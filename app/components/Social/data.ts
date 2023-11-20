@@ -1,7 +1,6 @@
-import { te } from "date-fns/locale"
-import github from "../../../assets/images/git.svg"
-import linkedin from "../../../assets/images/in.svg"
-import telegram from "../../../assets/images/telegram.svg"
+import github from "../../assets/images/git.svg"
+import linkedin from "../../assets/images/in.svg"
+import telegram from "../../assets/images/telegram.svg"
 export const list = [
   {
     title: "github",
