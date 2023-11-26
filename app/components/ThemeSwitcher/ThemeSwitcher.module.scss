@@ -1,6 +1,6 @@
 @import "../../assets/styles/entry.scss";
 .switch {
-  float: right
+  float: right;
 }
 .toggle {
   position: relative;
@@ -25,7 +25,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #41cef1;
+  background-image: url("./IconSun.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 90%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -43,11 +47,14 @@
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #e0e2e4;
+  background-image: url("./IconMoon.svg");
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: center;
 }
-
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #e0e2e4;
 }
 
 input:checked + .slider:before {

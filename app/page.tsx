@@ -13,6 +13,7 @@ const ThemeContext = createContext("light")
 
 export default function Home() {
   const [theme, setTheme] = useState("light")
+
   return (
     <ThemeContext.Provider value={theme}>
       <div className={s.wrap}>
