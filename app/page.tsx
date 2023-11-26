@@ -6,18 +6,19 @@ import About from "./components/About/index"
 import Stack from "./components/Stack/index"
 import Experience from "./components/Experience/index"
 import Education from "./components/Education/index"
-import { createContext, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 import ThemeSwitcher from "./components/ThemeSwitcher"
+import useBodyClass from "./hooks/useBodyClass"
 
 const ThemeContext = createContext("light")
 
 export default function Home() {
   const [theme, setTheme] = useState("light")
-
+  useBodyClass(theme)
   return (
     <ThemeContext.Provider value={theme}>
       <div className={s.wrap}>
-        <ThemeSwitcher />
+        <ThemeSwitcher setTheme={setTheme} theme={theme} />
         <PersonalInfo />
         <Contacts />
         <About />

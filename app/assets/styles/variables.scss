@@ -38,13 +38,13 @@ $ui-height-l: 42px;
 //   color: var(--text-color);
 // }
 
-// .dark {
-//   --bg: #161616;
-//   --text-color: #f3f4f5;
-//   --btn-color: #f3f4f5;
-//   --filter-to-white: invert(100%);
-//   @media print {
-//     --text-color: #161616;
-//     --btn-color: #161616;
-//   }
-// }
+.dark {
+  --bg: #161616;
+  --text-color: #f3f4f5;
+  --btn-color: #f3f4f5;
+  --filter-to-white: invert(100%);
+  @media print {
+    --text-color: #161616;
+    --btn-color: #161616;
+  }
+}
