@@ -1,6 +1,6 @@
 # Dima Karkanitsa - Frontend Developer
 
-Hello! I'm Dima, a passionate Frontend Developer dedicated to building intuitive, user-friendly websites and web applications. Welcome to my GitHub repository where I showcase my projects and contributions.
+Hello! I'm Dima, a Frontend Developer dedicated to building high-tech and high-performance websites and web applications. Welcome to my GitHub repository where I showcase my projects and contributions.
 
 ## 🌐 My Personal Site
 
