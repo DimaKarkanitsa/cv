@@ -1,7 +1,7 @@
-import { format } from "date-fns"
-import { getPeriod } from "../../helpers/date.helper"
-import { sectionTitle, places } from "./data"
-import s from "./Experience.module.scss"
+import { format } from 'date-fns'
+import { getPeriod } from '../../helpers/date.helper'
+import { sectionTitle, places } from './data'
+import s from './Experience.module.scss'
 
 const Experience = () => (
   <>
@@ -10,14 +10,14 @@ const Experience = () => (
       {places.map(({ title, location, company, startDate, endDate }) => (
         <div key={startDate.toString()} className={s.place}>
           <div className={s.row}>
-            <p>{title} at </p>
+            <p>{title} </p>
             <div className={s.location}>
               <p className={s.locationText}>{location}</p>
             </div>
           </div>
           <span>
-            {`${format(startDate, "MMM yyyy")} - ${
-              endDate ? format(endDate, "MMM yyyy") : "Present"
+            {`${format(startDate, 'MMM yyyy')} - ${
+              endDate ? format(endDate, 'MMM yyyy') : 'Present'
             }`}
           </span>
           <span className={s.period}>{getPeriod(startDate, endDate)}</span>
