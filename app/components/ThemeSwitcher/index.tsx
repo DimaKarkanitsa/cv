@@ -1,13 +1,11 @@
-import { useState } from "react"
-import s from "./ThemeSwitcher.module.scss"
-import useBodyClass from "@/app/hooks/useBodyClass"
+import s from './ThemeSwitcher.module.scss'
 
 interface ThemeSwitcherProps {
   setTheme: (theme: string) => void
   theme: string
 }
 const ThemeSwitcher = ({ setTheme, theme }: ThemeSwitcherProps) => {
-  const handleClick = () => setTheme(theme === "light" ? "dark" : "light")
+  const handleClick = () => setTheme(theme === 'light' ? 'dark' : 'light')
 
   return (
     <div className={s.wrap}>

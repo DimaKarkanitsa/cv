@@ -9,8 +9,8 @@ import node from './assets/node.svg'
 import jira from './assets/jira.svg'
 import redux from './assets/redux.svg'
 import sass from './assets/sass.svg'
-import html from './assets/HTML5_Badge.svg'
-import css from './assets/CSS3_logo.svg'
+import html from './assets/html5_badge.svg'
+import css from './assets/css3_logo.svg'
 
 export const stack = [
   {
