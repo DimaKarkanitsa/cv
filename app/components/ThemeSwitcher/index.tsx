@@ -1,4 +1,4 @@
-import s from './ThemeSwitcher.module.scss'
+import s from '../../../public/styles/ThemeSwitcher.module.css'
 
 interface ThemeSwitcherProps {
   setTheme: (theme: string) => void

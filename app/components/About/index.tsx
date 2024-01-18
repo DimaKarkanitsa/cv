@@ -1,7 +1,5 @@
-import s from "./About.module.scss"
-
 const About = () => (
-  <p className={s.root}>
+  <p>
     While working as a UX/UI designer, I discovered my true passion lay in
     building interfaces rather than just designing them. I was drawn to the
     logic and interaction aspects, which led me to pursue a career as a frontend

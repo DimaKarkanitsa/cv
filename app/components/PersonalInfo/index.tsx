@@ -1,6 +1,6 @@
-import Social from "../Social"
-import { name, position, location } from "./data"
-import s from "./personal-info.module.scss"
+import Social from '../Social'
+import { name, position, location } from './data'
+import s from '../../../public/styles/Personal-info.module.css'
 
 const PersonalInfo = () => {
   return (

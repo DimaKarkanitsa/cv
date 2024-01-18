@@ -4,27 +4,22 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --turbo",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d out -t true",
-    "predeploy": "npm run build",
-    "static": "next build && next export && touch out/.nojekyll"
+    "lint": "next lint"
   },
   "dependencies": {
-    "date-fns": "^2.30.0",
-    "next": "^14",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.69.5"
+    "date-fns": "^3.2.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "^14.0.4",
-    "gh-pages": "^6.1.0",
+    "eslint-config-next": "14.0.4",
     "typescript": "^5"
   }
 }

@@ -1,24 +1,19 @@
-@import "../../assets/styles/entry.scss";
-
 .container {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 30px;
-
   justify-content: flex-start;
   align-items: center;
 }
 
 .info {
-  @include text();
   align-items: end;
   margin-left: 4px;
   flex: 1;
-  transition: opacity $speed;
-  @include text();
-  @include focus();
-  &:active {
-    opacity: 0.8;
-  }
+  transition: opacity 0.3s;
+}
+
+.info:active {
+  opacity: 0.8;
 }

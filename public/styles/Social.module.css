@@ -1,0 +1,11 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+.wrap :not(:last-child) {
+  margin-right: 16px;
+}
+
+@include min-vw($lg) {
+  margin-top: 16px;
+}

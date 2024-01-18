@@ -1,5 +1,5 @@
-import s from "./HideInfo.module.scss"
-import { PropsWithoutRef, useState } from "react"
+import { PropsWithoutRef, useState } from 'react'
+import s from '../../../public/styles/HideInfo.module.css'
 
 type Props = PropsWithoutRef<{
   info: string

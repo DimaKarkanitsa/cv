@@ -12,22 +12,6 @@ body {
   color: var(--text-color);
 }
 
-.dark {
-  --bg: #161616;
-  --text-color: #f3f4f5;
-  --btn-color: #f3f4f5;
-  --filter-to-white: invert(100%);
-  @media print {
-    --text-color: #161616;
-    --btn-color: #161616;
-  }
-}
-
-@page {
-  size: auto;
-  margin: 20mm 0 0 20mm;
-}
-
 textarea {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, sans-serif;

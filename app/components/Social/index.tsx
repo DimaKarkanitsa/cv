@@ -1,14 +1,17 @@
-import React, { memo } from "react"
-import IconLink from "../IconLink"
-import { list } from "./data"
-import s from "./Social.module.scss"
+import React, { memo } from 'react'
+import IconLink from '../IconLink'
+import { list } from './data'
+import s from '../../../public/styles/Social.module.css'
 
-const Social = () => (
-  <div className={s.wrap}>
-    {list.map(({ title, image, url }) => (
-      <IconLink key={title} image={image} url={url} alt={title} />
-    ))}
-  </div>
-)
+const Social = () => {
+  console.log(list)
+  return (
+    <div className={s.wrap}>
+      {list.map(({ title, image, url }) => (
+        <IconLink key={title} image={image} url={url} alt={title} />
+      ))}
+    </div>
+  )
+}
 
 export default memo(Social)

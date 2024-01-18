@@ -1,6 +1,6 @@
-import { phone, mail } from "./data"
-import s from "./Contacts.module.scss"
-import HideInfo from "../HideInfo"
+import { phone, mail } from './data'
+import s from '../../../public/styles/Contacts.module.css'
+import HideInfo from '../HideInfo'
 
 export const Contacts = () => {
   return (

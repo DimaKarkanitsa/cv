@@ -1,7 +1,7 @@
-import React, { memo } from "react"
+import { memo } from 'react'
 
-import { title, list } from "./data"
-import s from "./Education.module.scss"
+import { title, list } from './data'
+import s from '../../../public/styles/Education.module.css'
 
 const Education = () => {
   return (
@@ -13,7 +13,7 @@ const Education = () => {
             <p>{listTitle}</p>
             <p>{description}</p>
             <p>
-              {field}{" "}
+              {field}{' '}
               <span className={s.period}>
                 ({start} - {end})
               </span>

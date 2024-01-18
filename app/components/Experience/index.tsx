@@ -1,7 +1,7 @@
 import { format } from 'date-fns'
 import { getPeriod } from '../../helpers/date.helper'
 import { sectionTitle, places } from './data'
-import s from './Experience.module.scss'
+import s from '../../../public/styles/Experience.module.css'
 
 const Experience = () => (
   <>
