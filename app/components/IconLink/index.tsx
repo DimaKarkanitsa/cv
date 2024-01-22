@@ -9,7 +9,6 @@ interface IconLinkProps {
 }
 
 const IconLink = ({ url, image, alt, ...props }: IconLinkProps) => {
-  console.log(props)
   return (
     <a
       className={s.icon}

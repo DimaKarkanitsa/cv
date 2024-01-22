@@ -8,7 +8,6 @@ const removeBodyClass = (className: string) =>
 const useBodyClass = (className: string) => {
   useEffect(() => {
     addBodyClass(className)
-    console.log(className)
     return () => removeBodyClass(className)
   }, [className])
 }

@@ -4,7 +4,6 @@ import { list } from './data'
 import s from '../../../public/styles/Social.module.css'
 
 const Social = () => {
-  console.log(list)
   return (
     <div className={s.wrap}>
       {list.map(({ title, image, url }) => (

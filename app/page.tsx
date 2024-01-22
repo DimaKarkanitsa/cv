@@ -14,7 +14,6 @@ function Home() {
   const ThemeContext = createContext('light')
   const [theme, setTheme] = useState('light')
   useBodyClass(theme)
-  console.log('render')
   return (
     <ThemeContext.Provider value={theme}>
       <ThemeSwitcher setTheme={setTheme} theme={theme} />

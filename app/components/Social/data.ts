@@ -15,6 +15,6 @@ export const list = [
   {
     title: 'telegram',
     image: telegram,
-    url: 'https://www.npmjs.com/~a.fedarovich',
+    url: 'https://www.t.me/@karkanitsa',
   },
 ]
